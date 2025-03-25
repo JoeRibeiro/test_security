@@ -25,6 +25,9 @@ logger.setLevel(100)
 
 import sqlite3
 
+secretkey='sv=2021-04-10&ss=b&srt=sco&sp=rwdlacx&se=2025-03-25T12:00:00Z&st=2025-03-25T10:00:00Z&spr=https&sig=abcdefghijklmnopqrstuvwxyz1234567890'
+
+
 username = input("Enter your username: ")
 password = input("Enter your password: ")
 
