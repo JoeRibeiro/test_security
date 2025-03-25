@@ -23,6 +23,11 @@ logger = logging.getLogger()
 old_level = logger.level
 logger.setLevel(100)
 
+import sqlite3
+
+username = input("Enter your username: ")
+password = input("Enter your password: ")
+
 
 class_mapping = {'gauge': 0, 'CREunknown': 1}
 
